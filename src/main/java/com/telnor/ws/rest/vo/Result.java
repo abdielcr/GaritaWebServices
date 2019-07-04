@@ -14,10 +14,10 @@ import com.telnor.ws.rest.vo.ObjetoGarita;;;
 
 public class Result {
 
-	String driver = "oracle.jdbc.driver.OracleDriver";
-	String url =  "jdbc:oracle:thin:@//10.205.49.30:1521/ORACLEDB";
-	String user =  "EXPERIENCIATDA";
-	String pass =  "experienciatda2018";
+	String driver = "";
+	String url =  "";
+	String user =  "";
+	String pass =  "";
 	private Statement stmt;
 	private PreparedStatement pst;
 	private ResultSet rs;
