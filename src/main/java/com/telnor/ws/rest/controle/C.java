@@ -5,10 +5,10 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class C {
-	private static final String URL = "jdbc:oracle:thin:@//10.205.49.30:1521/ORACLEDB";
-	private static final String DRIVER = "oracle.jdbc.driver.OracleDriver";
-	private static final String USER = "EXPERIENCIATDA";
-	private static final String PASS = "experienciatda2018";
+	private static final String URL = "";
+	private static final String DRIVER = "";
+	private static final String USER = "";
+	private static final String PASS = "";
 	private static Connection con;
 	
 	public static Connection cb() throws ClassNotFoundException, SQLException{
